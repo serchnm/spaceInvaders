@@ -641,7 +641,7 @@ function resolveBulletPlayerCollisions() {
     var alien = aliens[i];
     if (alien.bullet !== null && checkRectCollision(alien.bullet.bounds, player.bounds)) {
       if (player.lives === 0) {
-        window.alert(player.score); 
+        window.alert("Score:" + player.score); 
         hasGameStarted = false;
         
         
